@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TheReadingSite.in</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+	*{
+			margin:0px;
+			font-family: 'Oswald', sans-serif;
+
+		}
+		.navbar{
+			width:100%;
+			height:60px;
+			margin-top:10px;
+			margin-left:-60px;  
+			position:relative;
+		}
+		.navimg{
+			background-image:url("logo.jpg"); 
+			height:50px;
+			width:90px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+			position: absolute;
+			margin-left:55px;
+		}
+		.navlink1{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center; 
+			margin-left:150px;
+			color: black;
+
+		}
+		.navlink2{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:270px;
+			color:black;
+		}
+		.navlink3{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:390px;
+			color:black;
+		}
+
+
+		.navlink4{
+			color:black;
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:510px;	
+		}
+		.navlink5{
+			position: absolute;
+			font-size:17px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:1200px;
+			background-color: black;
+			color:white;
+		}
+		.navlink1:hover , .navlink2:hover , .navlink3:hover , .navlink4:hover{
+			background-color: lightgray;
+			border:2px solid black;
+		}
+		.navlink5:hover{
+			background-color: white;
+			color: black;
+			border:2px solid black;
+		}
+		.font{
+			margin-left: 40px;
+			margin-top: 10px;
+		}
+		.art1{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art2{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art3{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art4{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+
+		.font1{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art5{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art6{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art7{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art8{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+		.font2{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art9{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art10{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art11{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art12{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+
+		.font3{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art13{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art14{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art15{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art16{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+	.copyright{
+    	background-color: rgb(51, 204, 204);
+    	color:white;
+    	width: 1260px;
+    	height: 70px;
+    	margin-top: 320px;
+    }
+	
+
+
+		</style>
+<body>
+	<div class="navbar">
+		<a href="TheReadingSite.html"><div class="navimg"></div></a>
+		<a href="TheReadingSite.html"><div class="navlink1">TheReadingSite</div></a>
+		<div class="navlink2"><a href="ViewMore.html">Articles</div>	
+		<div class="navlink3">Subscribe</div>
+		<div class="navlink4">About Us</div>
+		<a href="Contact Us.html"><div class="navlink5">Contact Us</div></a>
+	</div><hr><hr><hr><br>
+	<center><h1>Sports Issues</h1></center>
+	<div class="font">
+	<h1>Tennis:-</h1>
+</div>
+<div class="art1">
+	<a href="https://www.theguardian.com/sport/2021/jun/06/listen-to-my-body-roger-federer-pulls-out-of-french-open-to-protect-knee"><img src="Art1.jpg" height="150px" width="200px">
+	<center><p>
+Roger Federer pulls out of French Open to protect knee before Wimbledon</p></a></center></div>
+	<div class="art2">
+	<a href="https://www.indiatvnews.com/sports/tennis/french-open-2021-nadal-djokovic-face-italian-teenagers-in-4th-round-today-709776"><img src="Art2.jpg" height="150px" width="200px">
+	<center><p>French Open 2021: Nadal, Djokovic face Italian teenagers in 4th round today</p></a></center></div>
+
+	<div class="art3">
+	<a href="https://www.news18.com/photogallery/sports/french-open-2021-major-results-from-day-8-of-tournament-in-pics-3817604.html"><img src="Art3.jpg" height="150px" width="200px">
+	<center><p>French Open 2021: Major Results from Day 8 of Tournament, In Pics</p></a></center></div>
+
+	<div class="art4">
+	<a href="https://www.news18.com/news/sports/french-open-2021-rohan-bopanna-franko-skugor-advances-to-quarterfinals-3817400.html"><img src="Art4.jpg" height="150px" width="200px">
+	<center><p>French Open 2021: Rohan Bopanna-Franko Skugor Advances to Quarterfinals</p></a></center></div>
+
+
+	<div class="font1">
+	<h1>Football:-</h1>
+</div>
+<div class="art5">
+	<a href="https://edition.cnn.com/2021/06/05/football/euro-2020-england-taking-a-knee-spt-intl/index.html"><img src="Art5.jpg" height="150px" width="200px">
+	<center><p>
+Euro 2020: Football's coming home, but taking a knee divides England fans</p></a></center></div>
+	<div class="art6">
+	<a href="https://www.theguardian.com/football/blog/2021/jun/06/england-fans-booing-taking-knee-euro-2020"><img src="Art6.jpg" height="150px" width="200px">
+	<center><p>
+Pretending that booing England is about ‘keeping politics out’ is cowardly</p></a></center></div>
+
+	<div class="art7">
+	<a href="https://www.hawkeyenation.com/news/recruiting/jordan-van-den-berg-turns-workout-into-iowa-football-offer/article_a59bb7da-c6f5-11eb-8522-3f39d8702c8f.html"><img src="Art7.jpg" height="150px" width="200px">
+	<center><p>Jordan van den Berg Turns Workout into Iowa Football Offer</p></a></center></div>
+
+	<div class="art8">
+	<a href="https://zeenews.india.com/football/cristiano-ronaldo-stuns-everyone-by-sprinting-for-60-metres-in-just-seven-seconds-at-age-of-36-watch-2367021.html"><img src="Art8.jpg" height="150px" width="200px">
+	<center><p>Cristiano Ronaldo stuns everyone by sprinting for 60 metres in just seven seconds...</p></a></center></div>
+
+
+		<div class="font2">
+	<h1>Cricket:-</h1>
+</div>
+<div class="art9">
+	<a href="https://sports.ndtv.com/cricket/england-suspend-ollie-robinson-from-international-cricket-pending-disciplinary-probe-2457869"><img src="Art9.jpg" height="150px" width="200px">
+	<center><p>
+England Suspend Ollie Robinson From International Cricket Pending "Disciplinary" Probe</p></a></center></div>
+	<div class="art10">
+	<a href="https://timesofindia.indiatimes.com/sports/cricket/news/bcci-releases-t20-world-cup-prize-money-to-womens-team/articleshow/83297827.cms"><img src="Art10.jpg" height="150px" width="200px">
+	<center><p>BCCI releases T20 World Cup prize money to women's team</p></a></center></div>
+
+	<div class="art11">
+	<a href="https://timesofindia.indiatimes.com/sports/cricket/news/england-labour-to-draw-lords-test-against-new-zealand/articleshow/83297653.cms"><img src="Art11.jpg" height="150px" width="200px">
+	<center><p>England labour to earn a draw in Lord's Test against New Zealand</p></a></center></div>
+
+	<div class="art12">
+	<a href="https://sports.ndtv.com/cricket/ajinkya-rahane-birthday-virender-sehwag-wishes-team-indias-karate-kid-shares-his-childhood-pic-2457614"><img src="Art12.jpg" height="150px" width="200px">
+	<center><p>Ajinkya Rahane Birthday: Virender Sehwag Wishes Team India's "Karate Kid", Shares His..</p></a></center></div>
+
+
+	<div class="font3"> <h1>Badminton:-</h1> </div> <div class="art13"> <a
+href="https://timesofindia.indiatimes.com/sports/badminton/tough-journey-awaits-saina-nehwal-can-target-specific-tournaments-to-prolong-career-vimal-kumar/articleshow/83233576.cms"><img
+src="Art13.jpg" height="150px" width="200px"> <center><p> Tough journey awaits
+Saina Nehwal, can target specific tournaments to..</p></a></center></div> <div
+class="art14"> <a
+href="https://www.sportskeeda.com/badminton/news-after-sindhu-chirag-shetty-satwik-also-shift-gachibowli-stadium-practice"><img
+src="Art14.jpg" height="150px" width="200px"> <center><p> After Sindhu,
+Chirag-Satwik also shift to Gachibowli Stadium for
+practice</p></a></center></div>
+
+	<div class="art15">
+	<a href="https://www.sportskeeda.com/badminton/how-will-india-s-badminton-contingent-perform-tokyo-olympics-2021"><img src="Art15.jpg" height="150px" width="200px">
+	<center><p>India at Tokyo Olympics 2021: Badminton</p></a></center></div>
+
+	<div class="art16">
+	<a href="https://scroll.in/field/996553/from-rio-in-2016-to-tokyo-in-2021-for-pv-sindhu-its-all-about-change"><img src="Art16.jpg" height="150px" width="200px">
+	<center><p>From Rio in 2016 to Tokyo in 2021: For PV Sindhu, it’s all about change</p></a></center></div>
+
+<div class="copyright">
+		<center><div class="font"><br><h4>© Copyright 2021 TheReadingSite - All Rights Reserved</h4></div></div></center>

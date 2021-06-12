@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TheReadingSite.in</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+	*{
+			margin:0px;
+			font-family: 'Oswald', sans-serif;
+
+		}
+		.navbar{
+			width:100%;
+			height:60px;
+			margin-top:10px;
+			margin-left:-60px;  
+			position:relative;
+		}
+		.navimg{
+			background-image:url("logo.jpg"); 
+			height:50px;
+			width:90px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+			position: absolute;
+			margin-left:55px;
+		}
+		.navlink1{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center; 
+			margin-left:150px;
+			color: black;
+
+		}
+		.navlink2{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:270px;
+			color:black;
+		}
+		.navlink3{
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:390px;
+			color:black;
+		}
+
+
+		.navlink4{
+			color:black;
+			position: absolute;
+			font-size:20px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:510px;	
+		}
+		.navlink5{
+			position: absolute;
+			font-size:17px;
+			width:120px;
+			padding: 10px 0px 10px 0px;
+			text-align:center;
+			margin-left:1200px;
+			background-color: black;
+			color:white;
+		}
+		.navlink1:hover , .navlink2:hover , .navlink3:hover , .navlink4:hover{
+			background-color: lightgray;
+			border:2px solid black;
+		}
+		.navlink5:hover{
+			background-color: white;
+			color: black;
+			border:2px solid black;
+		}
+		.font{
+			margin-left: 40px;
+			margin-top: 10px;
+		}
+		.art1{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art2{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art3{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art4{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+
+		.font1{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art5{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art6{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art7{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art8{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+		.font2{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art9{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art10{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art11{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art12{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+
+		.font3{
+			margin-left: 40px;
+			margin-top: 275px;
+		}
+		.art13{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 200px;
+		}
+		.art14{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 425px;
+		}
+		.art15{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 650px;
+		}
+.art16{
+			height: 230px;
+			width: 200px;
+			position: absolute;
+			border: 5px solid black;
+			border-radius: 20px;
+			margin-top: 10px;
+			margin-left: 875px;
+		}
+
+	.copyright{
+    	background-color: rgb(51, 204, 204);
+    	color:white;
+    	width: 1260px;
+    	height: 70px;
+    	margin-top: 320px;
+    }
+	
+
+
+		</style>
+<body>
+	<div class="navbar">
+		<a href="TheReadingSite.html"><div class="navimg"></div></a>
+		<a href="TheReadingSite.html"><div class="navlink1">TheReadingSite</div></a>
+		<div class="navlink2"><a href="ViewMore.html">Articles</div></a>	
+		<a href="Subscribe.html"><div class="navlink3">Subscribe</div></a>
+		<div class="navlink4">About Us</div>
+		<a href="Contact Us.html"><div class="navlink5">Contact Us</div></a>
+	</div><hr><hr><hr><br>
+	<center><h1>News Issues</h1></center>
+	<div class="font">
+	<h1>The Times Of India:-</h1>
+</div>
+<div class="art1">
+	<a href="https://timesofindia.indiatimes.com/india/covid-19-india-records-over-1-lakh-new-cases-lowest-in-61-days/articleshow/83298796.cms"><img src="Art17.jpg" height="150px" width="200px">
+	<center><p>
+Covid-19: India records over 1 lakh new cases, lowest in 61 days</p></a></center></div>
+	<div class="art2">
+	<a href="https://timesofindia.indiatimes.com/city/bengaluru/six-injured-in-blast-near-bengaluru-airport/articleshow/83300166.cms"><img src="Art18.jpg" height="150px" width="200px">
+	<center><p>Six injured in blast near Bengaluru airport</p></a></center></div>
+
+	<div class="art3">
+	<a href="https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/actor-dilip-kumar-diagnosed-with-bilateral-pleural-effusion-everything-you-need-to-know-about-the-condition/articleshow/83298733.cms"><img src="Art19.jpg" height="150px" width="200px">
+	<center><p>Latest updates: Telangana government call on lockdown tomorrow</p></a></center></div>
+
+	<div class="art4">
+	<a href="https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/actor-dilip-kumar-diagnosed-with-bilateral-pleural-effusion-everything-you-need-to-know-about-the-condition/articleshow/83298733.cms"><img src="Art20.jpg" height="150px" width="200px">
+	<center><p>Actor Dilip Kumar diagnosed with bilateral pleural effusion: Everything you need to know..</p></a></center></div>
+
+
+	<div class="font1">
+	<h1>NDTV:-</h1>
+</div>
+<div class="art5">
+	<a href="https://www.ndtv.com/business/paytm-preps-for-planned-3-billion-ipo-which-could-be-countrys-largest-stock-market-debut-ever-invites-staff-to-sell-shares-2458705"><img src="Art21.jpg" height="150px" width="200px">
+	<center><p>
+Paytm Preps For Planned $3 Billion IPO, Invites Staff To Sell Shares</p></a></center></div>
+	<div class="art6">
+	<a href="https://www.ndtv.com/india-news/uttar-pradesh-agra-oxygen-mock-drill-22-turned-blue-probe-into-up-hospital-owners-audio-2458698"><img src="Art22.jpg" height="150px" width="200px">
+	<center><p>
+"Oxygen Mock Drill, 22 Turned Blue": Probe Into UP Hospital Owner's Audio</p></a></center></div>
+
+	<div class="art7">
+	<a href="https://www.ndtv.com/world-news/gangrene-hearing-loss-suggest-delta-strain-more-severe-say-doctors-2458691"><img src="Art23.jpg" height="150px" width="200px">
+	<center><p>Gangrene, Hearing Loss Suggest Delta Strain "More Severe", Say Doctors</p></a></center></div>
+
+	<div class="art8">
+	<a href="https://www.ndtv.com/world-news/us-report-concluded-covid-19-may-have-leaked-from-wuhan-lab-report-2458683"><img src="Art24.jpg" height="150px" width="200px">
+	<center><p>US Report Concluded COVID-19 May Have Leaked From Wuhan Lab: Report</p></a></center></div>
+
+
+		<div class="font2">
+	<h1>AajTak:-</h1>
+</div>
+<div class="art9">
+	<a href="https://www.aajtak.in/india/uttar-pradesh/story/coronavrius-lucknow-corona-antibody-screening-test-king-george-medical-college-1268497-2021-06-08"><img src="Art25.jpg" height="150px" width="200px">
+	<center><p>
+Lucknow: Antibody not formed even after getting two doses of vaccine, shocking revelations...</p></a></center></div>
+	<div class="art10">
+	<a href=" https://www.aajtak.in/india/news/story/corona-why-pm-modi-changed-the-vaccine-policy-and-decided-to-give-free-vaccines-to-state-1268471-2021-06-07"><img src="Art26.jpg" height="150px" width="200px">
+	<center><p>Compulsion or necessity... why did PM Modi change his vaccine policy?</p></a></center></div>
+
+	<div class="art11">
+	<a href=" https://www.aajtak.in/coronavirus/story/pm-narendra-modi-live-in-india-all-vaccination-will-be-by-central-govt-from-now-1268353-2021-06-07"><img src="Art27.jpg" height="150px" width="200px">
+	<center><p>PM Modi showed a mirror to the state governments on vaccine and covid control in a...</p></a></center></div>
+
+	<div class="art12">
+	<a href="https://www.aajtak.in/science/photo/covid-19-delta-variant-40-more-transmissible-tstr-1268100-2021-06-07"><img src="Art28.jpg" height="150px" width="200px">
+	<center><p>Delta variant 40% more dangerous, Britain also alerts people who have taken vaccine</p></a></center></div>
+
+
+	<div class="font3"> <h1>ZeeNews:-</h1> </div> <div class="art13"> <a
+href="https://zeenews.india.com/india/11-dead-as-residential-structure-collapses-in-mumbai-rescue-operations-on-2367976.html"><img
+src="Art29.jpg" height="150px" width="200px"> <center><p> 11 dead as residential structure collapses in Mumbai, rescue operations on</p></a></center></div> <div
+class="art14"> <a
+href="https://zeenews.india.com/india/solar-eclipse-to-occur-today-heres-when-and-where-the-ring-of-fire-will-be-visible-2367974.html"><img
+src="Art30.jpg" height="150px" width="200px"> <center><p> Solar Eclipse to occur today, here's when and where the ‘ring of fire’ will be visible</p></a></center></div>
+
+	<div class="art15">
+	<a href="https://zeenews.india.com/india/covaxin-phase-4-trials-to-be-conducted-soon-phase-3-data-to-be-out-in-july-bharat-biotech-2367973.html"><img src="Art31.jpg" height="150px" width="200px">
+	<center><p>Covaxin phase 4 trials to be conducted soon, phase 3 data to be out in July: Bharat Biotech</p></a></center></div>
+
+	<div class="art16">
+	<a href="https://zeenews.india.com/india/heavy-rains-batter-mumbai-orange-alert-issued-in-the-city-deluge-causes-landslides-wall-and-bridge-collapse-in-thane-palghar-2367970.html"><img src="Art32.jpg" height="150px" width="200px">
+	<center><p>Heavy rains batter Mumbai, orange alert issued in the city, deluge leads to landslides...</p></a></center></div>
+
+<div class="copyright">
+		<center><div class="font"><br><h4>© Copyright 2021 TheReadingSite - All Rights Reserved</h4></div></div></center>
